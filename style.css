@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: FreeMono, monospace;
+    background-color: rgb(24, 24, 24);
+    color:rgb(234, 241, 242);
+}
+/* Блок меню */
+
+.header {
+    padding: 20px;
+    background-color: rgb(13, 13, 13);
+    text-align: left;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 12px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.nav a:hover {
+    background-color: rgb(255, 140, 0);
+    color: black;
+    transition: 1s;
+    padding: 8px 14px;
+}
+
+/* Блок контента номер 1 */
+
+.block1 {
+    margin: 10px;
+    background-color: rgb(13, 13, 13);
+    border-radius: 20px;
+    padding: 60px 20px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photo1 {
+    border-radius: 20px;
+    width: 350px;
+}
+
+.left {
+    margin-right: 20px;
+}
+
+.right{
+    width: 600px;
+}
+
+.btn{
+    width: 60%;
+    height: 65px;
+    color:black;
+    background-color: rgb(255, 140, 0);
+    transition: 1s;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+.caption{
+    margin: 10px;
+}
+
+.text1{
+    margin: 10px;
+}
+
+/* Блок контента номер 2 */
+
+.block2 {
+    margin: 10px;
+    background-color: rgb(13, 13, 13);
+    border-radius: 20px;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 300px;
+    display: block;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+/* Блок контента номер 3 */
+
+.block3 {
+    margin: 10px;
+    background-color: rgb(13, 13, 13);
+    border-radius: 20px;
+    padding: 60px 20px;
+}
+
+.caption2 {
+    margin-bottom: 20px;
+}
+
+.item {
+    padding: 8px 12px;
+    background: #0f0f0f;
+    background: linear-gradient(90deg, rgba(15, 15, 15, 1) 0%, rgba(28, 28, 28, 1) 50%, rgba(156, 78, 0, 1) 100%);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+/* Блок футера */
+
+.footer {
+    text-align: center;
+    background-color: rgb(13, 13, 13);
+    padding: 30px;
+    font-size: 14px;
+}
